@@ -1,11 +1,11 @@
-package Chapter5;
+package Chapter5.Card;
 
 public class Card {
 	
 	private int cardNumber;
 	private static int serialNum = 10000;
 	
-	Card(){
+	public Card(){
 		serialNum++;
 		cardNumber = serialNum;
 	}

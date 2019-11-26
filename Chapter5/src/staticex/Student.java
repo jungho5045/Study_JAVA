@@ -7,8 +7,7 @@ public class Student {
 	public int studentID;
 	public String studentName;
 	public String address;
-	
-	// 생성자
+		// 생성자
 	public Student() {
 		serialNumber++;
 	}	//Default 생성자, 하나 이상의 생성자가 있을 경우 Default 생성자는 생성이 되지 않는다.

@@ -2,7 +2,7 @@ package cooperation;
 
 public class Student {
 	
-	String studentName;
+	String studentName;  
 	int grade;
 	int money;
 	

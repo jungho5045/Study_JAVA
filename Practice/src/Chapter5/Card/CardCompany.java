@@ -1,4 +1,4 @@
-package Chapter5;
+package Chapter5.Card;
 
 public class CardCompany {
 	
