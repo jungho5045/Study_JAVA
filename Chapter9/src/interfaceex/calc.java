@@ -10,4 +10,28 @@ public interface calc {
 	int times(int num1, int num2);
 	int divide(int num1, int num2);
 	
+	default void description() {
+		System.out.println("정수 계산기를 구현합니다.");
+		// myMethod();
+	}
+	
+	static int total(int[] arr) {
+		int total = 0;
+		
+		for(int i: arr) {
+			total += i;
+		}
+		
+		return total;
+	}
+	
+	// java 9부터 재공
+//	private void myMethod() {
+//		System.out.println("private method");
+//	}
+//	
+//	private static void mystaticMethod() {
+//		System.out.println("private static method");
+//	}
+	
 }
