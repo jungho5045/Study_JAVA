@@ -1,6 +1,9 @@
-package set;
+package collection.treeSet;
 
-public class Member {
+import java.util.Comparator;
+
+//public class Member implements Comparable<Member> {
+public class Member implements Comparator<Member> {
 	
 	private int memberId;
 	private String memberName;
@@ -40,7 +43,15 @@ public class Member {
 		}
 		return false;
 	}
-	
-	
-	
+	/*@Override
+	public int compareTo(Member member) {
+		return this.memberName.compareTo(member.getMemberName());		// MemberName으로 정렬
+		//return (this.memberId - member.memberId) * -1;				// MemberId로 정렬
+	}*/
+	@Override
+	public int compare(Member member1, Member member2) {				// 앞에서 this 뒤에가 넘어온 매개변수
+		
+		return (member1.memberId - member2.memberId);
+	}
+		
 }
