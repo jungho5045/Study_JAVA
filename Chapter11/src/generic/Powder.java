@@ -8,9 +8,7 @@ public class Powder extends Meterial{
 
 	@Override
 	public void doPrinting() {
-		
 		System.out.println("Powder로 프린팅 합니다.");
-		
 	}
 	
 }
