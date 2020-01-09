@@ -9,7 +9,7 @@ class Outer2{
 		
 		int num = 100;	// num은 getRunnable 메서드가 시작해서 끝날때까지만 유효한 지역변수
 		
-		return new Runnable() {			// 익명 내부 클래스
+		return new Runnable() {		// 익명 내부 클래스
 
 			@Override
 			public void run() {
