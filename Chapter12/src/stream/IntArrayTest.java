@@ -14,6 +14,9 @@ public class IntArrayTest {
 		System.out.println(sum);
 		System.out.println(count);
 		
+		//------------------reduce()----------------------
+		System.out.println(Arrays.stream(arr).reduce(0, (a,b)->a+b));	// 직접 연산을 지정할 수 있다.
+		
 	}
 
 }
