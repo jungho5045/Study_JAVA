@@ -30,7 +30,7 @@ class FastLibrary{
 	
 	public synchronized void returnBook(String title) {
 		Thread t = Thread.currentThread();
-		books.add(title);
+		books.add(title);	// Test
 		notifyAll();
 		System.out.println(t.getName() + " : " + title + " return");
 	}
