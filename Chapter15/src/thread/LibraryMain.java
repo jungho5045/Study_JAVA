@@ -9,7 +9,7 @@ class FastLibrary{
 	public FastLibrary() {
 		books.add("ลยน้ป๊ธฦ 1");
 		books.add("ลยน้ป๊ธฦ 2");
-		books.add("ลยน้ป๊ธฦ 3");
+		books.add("ลยน้ป๊ธฦ 3");	//test
 //		books.add("ลยน้ป๊ธฦ 4");
 //		books.add("ลยน้ป๊ธฦ 5");
 //		books.add("ลยน้ป๊ธฦ 6");
